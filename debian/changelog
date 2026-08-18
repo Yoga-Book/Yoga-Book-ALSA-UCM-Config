@@ -1,3 +1,11 @@
+alsa-ucm-conf-yogabook (1.5) unstable; urgency=medium
+
+  * Add SOF compatibility:
+    - Match the sanitized chtyogabook ALSA card ID.
+    - Skip legacy SST platform controls when they are not present.
+
+ -- Maurizio Casciano <mauriziocasciano7@gmail.com>  Tue, 18 Aug 2026 19:49:16 +0200
+
 alsa-ucm-conf-yogabook (1.4) unstable; urgency=medium
 
   * Fix cht-yogabook conf.d link
