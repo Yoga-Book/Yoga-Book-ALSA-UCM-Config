@@ -1,3 +1,9 @@
+alsa-ucm-conf-yogabook (1.6) unstable; urgency=medium
+
+  * Add the SOF card long-name lookup alias.
+
+ -- Maurizio Casciano <mauriziocasciano7@gmail.com>  Thu, 20 Aug 2026 01:13:35 +0200
+
 alsa-ucm-conf-yogabook (1.5) unstable; urgency=medium
 
   * Add SOF compatibility:
