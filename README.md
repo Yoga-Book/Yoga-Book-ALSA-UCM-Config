@@ -17,8 +17,9 @@ This package contains only:
 - the `cht-yogabook` UCM2 board configuration (Syntax 3) with the `HiFi` use
   case and the `Speaker`, `HeadsetPhones`, `DMIC1`, and `HeadsetMic` devices;
 - `conf.d` aliases that match the configuration to the card:
-  - `cht-yogabook` — the legacy SST card name;
-  - `chtyogabook` — the sanitized card ID used by the SOF driver;
+  - `cht-yogabook` — the original Yoga Book card name;
+  - `chtyogabook` — the corresponding sanitized card-name alias;
+  - `cht-rt5677` — the card name used by the legacy SST path;
   - `SOF/LENOVO-LenovoYB1_X91L-X91L` — the SOF long-name alias for the
     YB1-X91L;
 - Debian packaging that installs the tree under `/usr/share/alsa`.
@@ -46,7 +47,7 @@ Build the Debian package:
 
 ```bash
 dpkg-buildpackage -us -uc
-sudo apt install ../alsa-ucm-conf-yogabook_1.6_all.deb
+sudo apt install ../alsa-ucm-conf-yogabook_1.7_all.deb
 ```
 
 The package depends on `alsa-ucm-conf` and installs the UCM2 tree under
